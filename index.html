@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masai News</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+        }
+        .news-section {
+          width: auto;
+          height: auto;
+          background-color: #f4fdff;
+          padding-bottom: 60px;
+        }
+
+        .title{
+          text-align: center;
+          padding-top: 80px;
+          font-size: 30px;
+        }
+
+        .news-card {
+          width: auto;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+
+
+        .news-body {
+          width: 300px;
+          height: auto;
+          background-color: #ffffff;
+          margin-top: 50px;
+          margin-left: 20px;
+          padding-bottom: 30px;
+          border-radius: 10px;
+
+        }
+
+        .news-body img {
+          padding-top: 20px;
+          width: 300px;
+          height: 200px;
+        }
+        .date{
+          color: #628df8 !important;;
+          padding-left:20px;
+          /* padding-top:10px ; */
+
+        }
+
+        .news-body h4{
+        padding-top: 10px;
+            padding-left: 20px;
+        }
+
+        .news-body p{
+            padding-left:20px;
+            padding-top:10px ;
+            font-size: 16px;
+            padding-right:5px;
+            color:grey;
+        }
+
+        .seemore{
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .seemore button{
+            width:100px;
+            height: 40px;
+            border-radius: 10px;
+            background-color: transparent;
+            border: 1px solid rgb(253, 92, 92);
+            color: rgb(253, 92, 92);
+        }
+
+        .investor{
+            width: auto;
+            height: auto;
+            background-color: #ffffff;
+            margin-bottom: 50px;
+
+        }
+
+        .investor h1{
+            padding-top: 50px;
+            text-align: center;
+        }
+
+        .investor-card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding-top: 50px;
+        }
+
+        .investor-body{
+            width:250px;
+            height: 120px;
+            margin-right: 100px;
+            text-align: center;
+            border-radius: 10px;
+            
+            border: 1px solid grey;
+        }
+
+
+        .investor-body img{
+            width:180px;
+            height: 80px;
+            padding-top: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="news-section">
+      <h3 class="title">Masai In The News</h3>
+      <div class="news-card">
+        <div class="news-body">
+          <img src="./image/economics.png" />
+          <p class="date">21 Dec 2021</p>
+          <h4>
+            Edtect startup Masai School acquires data analytics firm Prepleaf
+            for $1 million.
+          </h4>
+          <p>
+            With thier latedt acquistion, Massai moves one steps closer to
+            becoming...
+          </p>
+        </div>
+        <div class="news-body">
+          <img src="./image/moneycontrol.png" />
+          <p class="date">26 Oct 2021</p>
+          <h4>
+            Kunal Shah, Vijay Shekhar Sharma, Amrish Rau amoung 21 angel
+            investors in Masai School
+          </h4>
+          <p>
+            Masai School is aiming to expand to 20 smaller cities by March 2022
+            and...
+          </p>
+        </div>
+        <div class="news-body">
+          <img src="./image/vccircle.png" />
+          <p class="date">18 Aug 2021</p>
+          <h4>
+            Unitus Ventures leads pre-series a funding for coding- focussed
+            Masai School
+          </h4>
+          <p>
+            Solftware coding platform Masai School has raised $2.5 million (Rs
+            18.6 croce) i...
+          </p>
+        </div>
+      </div>
+      <div class="seemore">
+        <button>See More  <i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div>
+
+    <div class="investor">
+        <h1>Our Investors, Who Believe In Us</h1>
+        <div class="investor-card">
+            <div class="investor-body">
+                <img src="./image/venture_img.png"alt="img">
+            </div>
+            <div class="investor-body">
+                <img src="./image/ion_imag.png" alt="image">
+            </div>
+            <div class="investor-body">
+                <img src="./image/indiaQut.png" atl="image">
+            </div>
+        </div>
+
+    </div>
+  </body>
+</html>
